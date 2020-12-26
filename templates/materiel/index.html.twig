@@ -1,0 +1,17 @@
+
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+
+    <h1>{{ uneVariable }}</h1>
+
+
+    {% if uneAutreVariable == true %}
+        <p>Lorem ipsum dolor sit amet.</p>
+    {% else %}
+        <p>Lorem ipsum dolor sit.</p>
+    {% endif %}
+
+{% endblock %}
